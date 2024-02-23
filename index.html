@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-    </style>
+    <title>FlexxxLab</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Website!</h1>
-        <p>This is a basic HTML website.</p>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h1 class="navbar-title">FlexxxLab</h1>
+        </div>
+    </nav>
+    <div id="content">
+        <!-- Content will be loaded dynamically here -->
     </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="bored.html">Bored</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
 </body>
 </html>
