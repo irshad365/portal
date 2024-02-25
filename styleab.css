@@ -51,3 +51,8 @@ body {
     flex-shrink: 0; /* Prevent footer from shrinking */
   }
   
+  .material-image {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    filter: invert(100%); /* Invert the colors to make it white */
+  }
