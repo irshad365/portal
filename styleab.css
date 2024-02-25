@@ -126,3 +126,55 @@ button {
     text-decoration: none;
   }
   
+/* styleab.css */
+
+.content {
+    margin-bottom: 20px; /* Add space between paragraph box and buttons */
+  }
+  
+  .description-box {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .description-box:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  button {
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-decoration: none;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+  }
+  
+  main {
+    flex-grow: 1; /* Allow the main content to grow to fill remaining space */
+  }
+  
+  footer {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
