@@ -56,3 +56,40 @@ body {
     height: auto;
     filter: invert(100%); /* Invert the colors to make it white */
   }
+
+  /* styleab.css */
+.underline {
+    text-decoration: underline;
+  }
+  
+/* styleab.css */
+
+button {
+    font-family: Trebuchet MS, sans-serif;
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 0); /* Adding a border */
+    border-radius: 10px; /* Making the button rounded */
+    color: rgb(0, 0, 0); /* Changing the text color to white */
+    cursor: pointer;
+    padding: 10px 15px; /* Adding some padding for better appearance */
+    transition: background-color 0.3s, color 0.3s; /* Adding transition for smoother hover effect */
+  }
+  
+  button:hover {
+    background-color: rgb(255, 0, 0); /* Changing background color on hover */
+    color: white; /* Changing text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .description-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding shadow */
+    transition: background-color 0.3s, color 0.3s; /* Adding transition */
+  }
+  
+  .description-box:hover {
+    background-color: red;
+    color: white;
+  }

@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         menu.classList.remove('active');
     });
 
+
     // Function to load page content
     function loadPage(url) {
         fetch(url)
@@ -35,4 +36,15 @@ document.addEventListener('DOMContentLoaded', function() {
             loadPage(href);
         });
     });
-});
+  });
+// script.js
+
+document.getElementById("showAppsBtn").addEventListener("click", function() {
+    var appDescription = document.getElementById("appDescription");
+    if (appDescription.style.display === "none") {
+      appDescription.style.display = "block";
+    } else {
+      appDescription.style.display = "none";
+    }
+  });
+  
