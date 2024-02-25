@@ -47,4 +47,23 @@ document.getElementById("showAppsBtn").addEventListener("click", function() {
       appDescription.style.display = "none";
     }
   });
+
+// script.js
+
+document.addEventListener("DOMContentLoaded", function() {
+    var showAppsBtn = document.getElementById("showAppsBtn");
+    var showMembersBtn = document.getElementById("showMembersBtn");
+    var appDescription = document.getElementById("appDescription");
+    var membersList = document.getElementById("membersList");
+  
+    showAppsBtn.addEventListener("click", function() {
+      appDescription.style.display = "block";
+      membersList.style.display = "none";
+    });
+  
+    showMembersBtn.addEventListener("click", function() {
+      appDescription.style.display = "none";
+      membersList.style.display = "block";
+    });
+  });
   

@@ -93,3 +93,36 @@ button {
     background-color: red;
     color: white;
   }
+
+  /* styleab.css */
+
+.description-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .description-box:hover {
+    background-color: red;
+    color: rgb(255, 255, 255);
+  }
+  
+  button {
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px; /* Add some spacing between buttons */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-decoration: none;
+  }
+  
