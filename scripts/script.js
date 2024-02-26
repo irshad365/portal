@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
   });
-// script.js
 
 document.getElementById("showAppsBtn").addEventListener("click", function() {
     var appDescription = document.getElementById("appDescription");
@@ -47,8 +46,6 @@ document.getElementById("showAppsBtn").addEventListener("click", function() {
       appDescription.style.display = "none";
     }
   });
-
-// script.js
 
 document.addEventListener("DOMContentLoaded", function() {
     var showAppsBtn = document.getElementById("showAppsBtn");
