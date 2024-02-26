@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         menu.classList.remove('active');
     });
 
+
     // Function to load page content
     function loadPage(url) {
         fetch(url)
@@ -35,4 +36,34 @@ document.addEventListener('DOMContentLoaded', function() {
             loadPage(href);
         });
     });
-});
+  });
+
+document.getElementById("showAppsBtn").addEventListener("click", function() {
+    var appDescription = document.getElementById("appDescription");
+    if (appDescription.style.display === "none") {
+      appDescription.style.display = "block";
+    } else {
+      appDescription.style.display = "none";
+    }
+  });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var showAppsBtn = document.getElementById("showAppsBtn");
+    var showMembersBtn = document.getElementById("showMembersBtn");
+    var appDescription = document.getElementById("appDescription");
+    var membersList = document.getElementById("membersList");
+  
+    showAppsBtn.addEventListener("click", function() {
+      appDescription.style.display = "block";
+      membersList.style.display = "none";
+    });
+  
+    showMembersBtn.addEventListener("click", function() {
+      appDescription.style.display = "none";
+      membersList.style.display = "block";
+    });
+  });
+  
+  function redirectToGmail() {
+    window.open('https://mail.google.com/mail/u/0/#inbox?compose=new');
+}
