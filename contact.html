@@ -3,10 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="stylecn.css">
 </head>
 <body>
-    <h2>Contact Us</h2>
-    <p>I am stil working on the this page :)</p>
+    <div class="header-box">
+        <h1 class="underline">Contact Us</h1>
+        <img src="material_support.svg" alt="Material Image" class="material-image">
+
+    </div>
+    <!-- Your contact form or other content can go here -->
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="stylecn.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-box">
+        <div class="contact-method">
+            <img src="sms-icon.svg" alt="Text Icon">
+            <a class="contact-button" href="whatsapp://send?phone=+971544738004">Text Contact</a></div>
+        <p1>Make sure to go to G-Mail and resend your message to: faraazminecraft@gmail.com</p1>
+        <!-- Add more contact methods as needed -->
+    </div>
+</body>
+</html>
+
+<script>
+    function redirectToGmail() {
+        window.open('https://mail.google.com/');
+    }
+</script>
