@@ -1,9 +1,9 @@
 /* About Bored Page Styles */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 }
 
 h2 {
-    color: #A1BE95;
+    color: #ff0000;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -24,15 +24,15 @@ p {
 }
 
 .feature {
-    background-color: #fff;
+    background-color: #ff000075;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.582);
     padding: 20px;
     margin-bottom: 20px;
 }
 
 .feature h3 {
-    color: #A1BE95;
+    color: #ffffff;
     font-size: 20px;
     margin-bottom: 10px;
 }
