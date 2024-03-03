@@ -1,4 +1,7 @@
 
+console.log("Script loaded!");
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const menuBtn = document.querySelector('.menu-btn');
   const menu = document.querySelector('.menu');
@@ -64,6 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function redirectToGmail() {
-  window.open('https://mail.google.com/mail/u/0/#inbox?compose=new');
-}
+document.addEventListener("DOMContentLoaded", function() {
+  // Event delegation for dynamically loaded content
+  document.addEventListener("click", function(event) {
+      if (event.target.matches("#showAppsBtn")) {
+          document.getElementById("appDescription").style.display = "block";
+          document.getElementById("membersList").style.display = "none";
+      } else if (event.target.matches("#showMembersBtn")) {
+          document.getElementById("membersList").style.display = "block";
+          document.getElementById("appDescription").style.display = "none";
+      }
+  });
+});
